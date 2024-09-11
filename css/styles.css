@@ -68,7 +68,6 @@ body {
 
 
   .btn {
-    display: inline-block;
     height: 5.2rem;
     font-weight: 500;
     font-size: 1.2rem;
@@ -78,46 +77,18 @@ body {
     padding: 0 3.6rem;
     margin: 0 1.2rem 1.6rem 0;
     color: var(--white-color);
-    text-decoration: none;
-    text-align: center;
-    white-space: nowrap;
     cursor: pointer;
-    transition: all 0.3s;
-    background-color: var(--primary-accent);
-    border: 2px solid var(--primary-accent);
-    transition: all 0.3s ease-in;
+    background-color: var(--primary-bg-color);
+    border: 3px solid var(--primary-accent);
+    color: var(--primary-accent);
   }
 
-  .btn:hover,
-.btn:focus {
-  background-color: var(--secondary-accent);
-  border-color: var(--secondary-accent);
-  color: var(--white-color);
+  .btn:hover{
+  cursor: pointer;
   outline: 0;
 }
 
-.btn:active {
-  background-color: #8b4a48;
-}
 
-  .btn-white {
-    background: transparent;
-    font-weight: 700;
-    border: 2px solid var(--primary-accent);
-    color: var(--primary-accent);
-    transition: all 0.3s ease-in;
-  }
-  
-  .btn-white:hover,
-  .btn-white:focus {
-    background: var(--primary-accent);
-    border: 2px solid var(--primary-accent);
-    color: var(--white-color);
-  }
-  
-  .btn-white:active {
-    background-color: #3c4446;
-  }
 
 
 
@@ -204,14 +175,14 @@ body {
     max-width: 100%;
     height: auto;
     vertical-align: bottom;
-    height: 45rem;
-    width: 45rem;
+    height: 40rem;
+    width: 40rem;
     border:7px solid var(--secondary-accent);;
     border-radius: 50%;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
     margin: 5rem;
-    padding: 0 4rem;
+    padding: 0 3.8rem;
 }
 
 
@@ -408,7 +379,8 @@ body {
   }
   
   .contact-title {
-    margin-bottom: 4rem;
+    padding-top: 1rem;
+    margin-bottom: 3rem;
   }
   
   .contact-content {
@@ -444,4 +416,26 @@ body {
   
   .contact form textarea {
     resize: none;
+  }
+
+  .contact .btn {
+    background-color: white;
+  }
+
+  .contact .btn:hover {
+    cursor: pointer;
+  }
+
+  /* Footer */
+.footer {
+    margin-top: 5rem;
+    background-color: var(--primary-accent);
+    color: var(--gray-color-3);
+  }
+  .footer-row {
+    display: flex;
+    flex-direction: column;
+    column-gap: 2rem;
+    align-items: center;
+    padding: 4rem 0;
   }
