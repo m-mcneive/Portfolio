@@ -205,11 +205,13 @@ body {
     height: auto;
     vertical-align: bottom;
     height: 45rem;
+    width: 45rem;
     border:7px solid var(--secondary-accent);;
-    border-radius: 500px;
+    border-radius: 50%;
     -webkit-border-radius: 500px;
     -moz-border-radius: 500px;
     margin: 5rem;
+    padding: 0 4rem;
 }
 
 
@@ -222,7 +224,7 @@ body {
     justify-content: center;
     align-items: center;
     column-gap: 2rem;
-    margin: 4rem 0 4rem;
+    margin: 2rem 0 4rem;
 }
 
 .resume {
@@ -235,8 +237,8 @@ body {
 }
 
 .social-links-row a {
-    height: 2.4rem;
-    width: 2.4rem;
+    height: 3rem;
+    width: 3rem;
     filter: invert(35%) sepia(11%) saturate(160%) hue-rotate(145deg) brightness(88%) contrast(80%);
     transition: all 0.3s ease-in-out;
 }
@@ -252,11 +254,11 @@ body {
 
 /* About section */
 .about {
-    padding: 10rem 0;
+    padding: 6rem 0;
 }
 
 .about-title {
-        margin-bottom: 4rem;
+    margin-bottom: 4rem;
 }
 
 .about-row {
@@ -316,7 +318,7 @@ body {
 
   /* Works */
 .projects {
-    padding: 10rem 0;
+    padding: 6rem 0;
     background-color: var(--primary-bg-color);
   }
   
@@ -401,7 +403,7 @@ body {
 
   /* Contact */
 .contact {
-    padding: 10rem 0;
+    padding: rem 0;
     text-align: center;
   }
   
